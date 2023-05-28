@@ -10,5 +10,6 @@ public class Q15_GCD {
 	public static void main(String[] args) {
 		System.out.println(gcd(12,24));
 	}
+	
 //	Time complexity: O(log(min(a,b))
 }
