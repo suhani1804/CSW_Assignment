@@ -19,14 +19,9 @@ public class Q13_Max_using_two {
 			}
 		}
 		for(int i=0;i<=indexA;i++)
-		{
 			sum += arrA[i];
-			
-		}
 		for(int j=indexB+1;j<arrB.length;j++)
-		{
 			sum+= arrB[j];
-		}
 		return sum;
 	}
 	public static void main(String[] args) {
