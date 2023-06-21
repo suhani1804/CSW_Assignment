@@ -8,7 +8,7 @@ public class Q5_Sort1_Usingorder_2 {
 		int l=0;
 		for(int i=0;i<arr2.length;i++)
 		{	
-			for(int j=0;j<arr1.length;)
+			for(int j=0;j<arr1.length;j++)
 			{
 				if(arr2[i]==arr1[j])
 				{
@@ -16,10 +16,7 @@ public class Q5_Sort1_Usingorder_2 {
 					arr1[l] = arr1[j];
 					arr1[j] = temp;
 					l++;
-					j++;
 				}
-				else 
-					j++;
 			}
 		}
 	}
